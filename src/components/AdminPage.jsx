@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import supabase from "../lid/supabase";
+import insta from "../assicet/insta.png";
 
 function formatTime(value) {
   if (!value) {
@@ -74,6 +75,7 @@ function AdminPage() {
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4">
         <div className="flex flex-col gap-4 rounded-[28px] bg-white p-6 shadow-sm md:flex-row md:items-center md:justify-between">
           <div>
+            <img src={insta} alt="Instagram" className="mb-4 h-14 w-14" />
             <p className="text-sm font-medium text-[#0095f6]">Admin panel</p>
             <h1 className="mt-2 text-3xl font-semibold text-[#1f2937]">Login activity dashboard</h1>
             <p className="mt-2 text-sm text-gray-500">View login activity collected from the existing Supabase log table.</p>
