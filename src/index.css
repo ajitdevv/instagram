@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-[#fafafa] text-[#262626] antialiased;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::selection {
+  background: #0095f6;
+  color: white;
+}
