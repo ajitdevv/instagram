@@ -132,9 +132,9 @@ function LoginPage() {
           {/* SIGNUP */}
           <div className="bg-white border border-gray-300 rounded-full text-center py-4 text-sm">
             Don't have an account?{" "}
-            <span className="text-[#0095f6] font-semibold cursor-pointer">
+            <a href="/admin" className="text-[#0095f6] font-semibold cursor-pointer">
               Sign up
-            </span>
+            </a>
           </div>
 
           {/* APP LINKS */}
